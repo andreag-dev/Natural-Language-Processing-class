@@ -57,8 +57,6 @@ def process_data(text):
         #person = Person(last, first, mi, id, phone)
         #employees_in[person]
 
-        #couldnt figure out how to loop through to add all employees
-
         employees_in[id] = Person(last, first, mi, id, phone)
 
     return employees_in
